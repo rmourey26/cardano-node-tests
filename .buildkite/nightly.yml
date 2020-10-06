@@ -1,0 +1,8 @@
+steps:
+  - label: 'run tests'
+    command: 'nix-shell --run "niv update cardano-node -b master" && nix-shell --run "make tests"'
+    artifact_paths:
+      - ".cli_coverage/*"
+      - ".reports/*"
+    agents:
+      system: x86_64-linux
