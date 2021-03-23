@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>cardano_node_tests package &mdash; cardano-node-tests  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="cardano_node_tests.tests package" href="cardano_node_tests.tests.html" />
+    <link rel="prev" title="Source Documentation" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> cardano-node-tests
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">README for cardano-node-tests</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Source Documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">cardano_node_tests package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cardano_node_tests.tests.html">cardano_node_tests.tests package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cardano_node_tests.utils.html">cardano_node_tests.utils package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-cardano_node_tests.cardano_cli_coverage">cardano_node_tests.cardano_cli_coverage module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-cardano_node_tests.prepare_cluster_scripts">cardano_node_tests.prepare_cluster_scripts module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-cardano_node_tests.testnet_cleanup">cardano_node_tests.testnet_cleanup module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-cardano_node_tests">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">cardano-node-tests</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">Source Documentation</a> &raquo;</li>
+        
+      <li>cardano_node_tests package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/cardano_node_tests.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="cardano-node-tests-package">
+<h1>cardano_node_tests package<a class="headerlink" href="#cardano-node-tests-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="cardano_node_tests.tests.html">cardano_node_tests.tests package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.conftest">cardano_node_tests.tests.conftest module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_cli">cardano_node_tests.tests.test_cli module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_configuration">cardano_node_tests.tests.test_configuration module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_kes">cardano_node_tests.tests.test_kes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_ledger_state">cardano_node_tests.tests.test_ledger_state module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_metrics">cardano_node_tests.tests.test_metrics module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_native_tokens">cardano_node_tests.tests.test_native_tokens module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_pools">cardano_node_tests.tests.test_pools module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_protocol">cardano_node_tests.tests.test_protocol module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_scripts">cardano_node_tests.tests.test_scripts module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_staking">cardano_node_tests.tests.test_staking module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_transaction_fees">cardano_node_tests.tests.test_transaction_fees module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_transactions">cardano_node_tests.tests.test_transactions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests.test_update_proposal">cardano_node_tests.tests.test_update_proposal module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.tests.html#module-cardano_node_tests.tests">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cardano_node_tests.utils.html">cardano_node_tests.utils package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.cluster_management">cardano_node_tests.utils.cluster_management module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.cluster_nodes">cardano_node_tests.utils.cluster_nodes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.cluster_scripts">cardano_node_tests.utils.cluster_scripts module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.clusterlib_cli_coverage">cardano_node_tests.utils.clusterlib_cli_coverage module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.clusterlib_utils">cardano_node_tests.utils.clusterlib_utils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.configuration">cardano_node_tests.utils.configuration module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.helpers">cardano_node_tests.utils.helpers module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.logfiles">cardano_node_tests.utils.logfiles module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.model_ekg">cardano_node_tests.utils.model_ekg module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.types">cardano_node_tests.utils.types module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils.versions">cardano_node_tests.utils.versions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cardano_node_tests.utils.html#module-cardano_node_tests.utils">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-cardano_node_tests.cardano_cli_coverage">
+<span id="cardano-node-tests-cardano-cli-coverage-module"></span><h2>cardano_node_tests.cardano_cli_coverage module<a class="headerlink" href="#module-cardano_node_tests.cardano_cli_coverage" title="Permalink to this headline">¶</a></h2>
+<p>Generate coverage report for <cite>cardano-cli</cite> sub-commands and options.</p>
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.cli">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">cli</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cli_args</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>list<span class="p">, </span>tuple<span class="p">, </span>set<span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; str<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L101-L105"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.cli" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the <cite>cardano-cli</cite> command.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.get_args">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">get_args</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; argparse.Namespace<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L35-L74"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.get_args" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get script command line arguments.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.get_available_commands">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">get_available_commands</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cli_args</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>list<span class="p">, </span>tuple<span class="p">, </span>set<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">ignore_skips</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em><span class="sig-paren">)</span> &#x2192; dict<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L129-L142"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.get_available_commands" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get all available cardano-cli sub-commands and options.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.get_badge_icon">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">get_badge_icon</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">report</span><span class="p">:</span> <span class="n">dict</span></em><span class="sig-paren">)</span> &#x2192; str<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L197-L209"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.get_badge_icon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return URL of badge icon.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.get_coverage">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">get_coverage</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_jsons</span><span class="p">:</span> <span class="n">List<span class="p">[</span>pathlib.Path<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">available_commands</span><span class="p">:</span> <span class="n">dict</span></em><span class="sig-paren">)</span> &#x2192; dict<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L145-L157"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.get_coverage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get coverage info by merging available data.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.get_report">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">get_report</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">arg_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">coverage</span><span class="p">:</span> <span class="n">dict</span></em>, <em class="sig-param"><span class="n">uncovered_only</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span>dict<span class="p">, </span>int<span class="p">, </span>int<span class="p">]</span><a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L160-L194"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.get_report" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate coverage report.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.main">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L212-L240"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.merge_coverage">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">merge_coverage</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dict_a</span><span class="p">:</span> <span class="n">dict</span></em>, <em class="sig-param"><span class="n">dict_b</span><span class="p">:</span> <span class="n">dict</span></em><span class="sig-paren">)</span> &#x2192; dict<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L77-L98"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.merge_coverage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Merge dict_b into dict_a.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.cardano_cli_coverage.parse_cmd_output">
+<code class="sig-prename descclassname">cardano_node_tests.cardano_cli_coverage.</code><code class="sig-name descname">parse_cmd_output</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">output</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; List<span class="p">[</span>str<span class="p">]</span><a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/cardano_cli_coverage.py#L108-L126"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.cardano_cli_coverage.parse_cmd_output" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse <cite>cardano-cli</cite> command output, return sub-commands and options names.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-cardano_node_tests.prepare_cluster_scripts">
+<span id="cardano-node-tests-prepare-cluster-scripts-module"></span><h2>cardano_node_tests.prepare_cluster_scripts module<a class="headerlink" href="#module-cardano_node_tests.prepare_cluster_scripts" title="Permalink to this headline">¶</a></h2>
+<p>Create a directory with scripts and config files for running cluster instance.</p>
+<p>For settings it uses the same env variables as when running the tests.</p>
+<dl class="py function">
+<dt id="cardano_node_tests.prepare_cluster_scripts.get_args">
+<code class="sig-prename descclassname">cardano_node_tests.prepare_cluster_scripts.</code><code class="sig-name descname">get_args</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; argparse.Namespace<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/prepare_cluster_scripts.py#L19-L43"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.prepare_cluster_scripts.get_args" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get command line arguments.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.prepare_cluster_scripts.main">
+<code class="sig-prename descclassname">cardano_node_tests.prepare_cluster_scripts.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/prepare_cluster_scripts.py#L71-L94"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.prepare_cluster_scripts.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.prepare_cluster_scripts.prepare_scripts_files">
+<code class="sig-prename descclassname">cardano_node_tests.prepare_cluster_scripts.</code><code class="sig-name descname">prepare_scripts_files</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">destdir</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>str<span class="p">, </span>pathlib.Path<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">scriptsdir</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>str<span class="p">, </span>pathlib.Path<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">''</span></em>, <em class="sig-param"><span class="n">instance_num</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">0</span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="cardano_node_tests.utils.html#cardano_node_tests.utils.cluster_scripts.InstanceFiles" title="cardano_node_tests.utils.cluster_scripts.InstanceFiles">cardano_node_tests.utils.cluster_scripts.InstanceFiles</a><a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/prepare_cluster_scripts.py#L46-L68"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.prepare_cluster_scripts.prepare_scripts_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare scripts files for starting and stopping cluster instance.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-cardano_node_tests.testnet_cleanup">
+<span id="cardano-node-tests-testnet-cleanup-module"></span><h2>cardano_node_tests.testnet_cleanup module<a class="headerlink" href="#module-cardano_node_tests.testnet_cleanup" title="Permalink to this headline">¶</a></h2>
+<p>Cleanup a testnet with the help of testing artifacts.</p>
+<ul class="simple">
+<li><p>withdraw rewards</p></li>
+<li><p>deregister stake addresses</p></li>
+<li><p>return funds to faucet</p></li>
+</ul>
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.cleanup">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">cleanup</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cluster_obj</span><span class="p">:</span> <span class="n">cardano_clusterlib.clusterlib.ClusterLib</span></em>, <em class="sig-param"><span class="n">location</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>str<span class="p">, </span>pathlib.Path<span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L164-L220"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.cleanup" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cleanup a testnet with the help of testing artifacts.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.create_addr_record">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">create_addr_record</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">addr_file</span><span class="p">:</span> <span class="n">pathlib.Path</span></em><span class="sig-paren">)</span> &#x2192; cardano_clusterlib.clusterlib.AddressRecord<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L115-L130"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.create_addr_record" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a <cite>clusterlib.AddressRecord</cite>.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.deregister_stake_addr">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">deregister_stake_addr</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cluster_obj</span><span class="p">:</span> <span class="n">cardano_clusterlib.clusterlib.ClusterLib</span></em>, <em class="sig-param"><span class="n">pool_user</span><span class="p">:</span> <span class="n">cardano_clusterlib.clusterlib.PoolUser</span></em>, <em class="sig-param"><span class="n">name_template</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L65-L87"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.deregister_stake_addr" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deregister stake address.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.find_files">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">find_files</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">location</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>str<span class="p">, </span>pathlib.Path<span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; Generator<span class="p">[</span>pathlib.Path<span class="p">, </span>None<span class="p">, </span>None<span class="p">]</span><a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L133-L136"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.find_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find all ‘*.addr’ files in given location and it’s subdirectories.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.get_args">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">get_args</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; argparse.Namespace<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L26-L36"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.get_args" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get command line arguments.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.group_files">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">group_files</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">file_paths</span><span class="p">:</span> <span class="n">Generator<span class="p">[</span>pathlib.Path<span class="p">, </span>None<span class="p">, </span>None<span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; List<span class="p">[</span>List<span class="p">[</span>pathlib.Path<span class="p">]</span><span class="p">]</span><a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L139-L161"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.group_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Group payment address files with corresponding stake address files.</p>
+<p>These need to be processed together - funds are transfered from payment address after
+the stake address was deregistered.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.main">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L223-L231"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.return_funds_to_faucet">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">return_funds_to_faucet</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cluster_obj</span><span class="p">:</span> <span class="n">cardano_clusterlib.clusterlib.ClusterLib</span></em>, <em class="sig-param"><span class="n">src_addr</span><span class="p">:</span> <span class="n">cardano_clusterlib.clusterlib.AddressRecord</span></em>, <em class="sig-param"><span class="n">faucet_addr</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">tx_name</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L90-L112"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.return_funds_to_faucet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send funds from <cite>src_addr</cite> to <cite>faucet_addr</cite>.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cardano_node_tests.testnet_cleanup.withdraw_reward">
+<code class="sig-prename descclassname">cardano_node_tests.testnet_cleanup.</code><code class="sig-name descname">withdraw_reward</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cluster_obj</span><span class="p">:</span> <span class="n">cardano_clusterlib.clusterlib.ClusterLib</span></em>, <em class="sig-param"><span class="n">stake_addr_record</span><span class="p">:</span> <span class="n">cardano_clusterlib.clusterlib.AddressRecord</span></em>, <em class="sig-param"><span class="n">dst_addr_record</span><span class="p">:</span> <span class="n">cardano_clusterlib.clusterlib.AddressRecord</span></em>, <em class="sig-param"><span class="n">name_template</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/input-output-hk/cardano-node-tests/blob/dd4dacbdb6e096a060319d9433f6dd13b2d6450c/cardano_node_tests/testnet_cleanup.py#L39-L62"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#cardano_node_tests.testnet_cleanup.withdraw_reward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Withdraw rewards to payment address.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-cardano_node_tests">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-cardano_node_tests" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="cardano_node_tests.tests.html" class="btn btn-neutral float-right" title="cardano_node_tests.tests package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="modules.html" class="btn btn-neutral float-left" title="Source Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 1980, Cardano QA Team.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
