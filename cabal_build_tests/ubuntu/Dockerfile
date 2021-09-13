@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:groovy-20210614
 
 # workaround for timezone manual intervention
 ENV TZ=Europe/London
