@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.10
 
 # workaround for timezone manual intervention
 ENV TZ=Europe/London
