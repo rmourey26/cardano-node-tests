@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic-20220830
 
 # workaround for timezone manual intervention
 ENV TZ=Europe/London
