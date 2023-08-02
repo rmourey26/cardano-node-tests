@@ -6,7 +6,7 @@ pre-commit
 pylint==2.9.0
 
 # documentation
-Sphinx==3.2.1
+Sphinx==3.3.0
 m2r2
 numpydoc
 sphinx_rtd_theme
