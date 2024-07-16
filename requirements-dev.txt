@@ -26,4 +26,4 @@ pytest-order
 pytest-xdist
 pyyaml
 requests
-setuptools>=21.0.0
+setuptools>=70.0.0
